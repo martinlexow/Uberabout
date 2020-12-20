@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6D56353A258FFAD3009675D4 /* UberaboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D563539258FFAD3009675D4 /* UberaboutApp.swift */; };
-		6D56353C258FFAD4009675D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D56353B258FFAD4009675D4 /* ContentView.swift */; };
 		6D56353E258FFAD5009675D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D56353D258FFAD5009675D4 /* Assets.xcassets */; };
 		6D563541258FFAD5009675D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D563540258FFAD5009675D4 /* Preview Assets.xcassets */; };
+		6D56354B258FFB2E009675D4 /* Uberabout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D56354A258FFB2E009675D4 /* Uberabout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D563536258FFAD3009675D4 /* Uberabout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uberabout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D563539258FFAD3009675D4 /* UberaboutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberaboutApp.swift; sourceTree = "<group>"; };
-		6D56353B258FFAD4009675D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D56353D258FFAD5009675D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D563540258FFAD5009675D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D563542258FFAD5009675D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D563543258FFAD5009675D4 /* Uberabout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Uberabout.entitlements; sourceTree = "<group>"; };
+		6D56354A258FFB2E009675D4 /* Uberabout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uberabout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				6D563539258FFAD3009675D4 /* UberaboutApp.swift */,
-				6D56353B258FFAD4009675D4 /* ContentView.swift */,
+				6D56354A258FFB2E009675D4 /* Uberabout.swift */,
 				6D56353D258FFAD5009675D4 /* Assets.xcassets */,
 				6D563542258FFAD5009675D4 /* Info.plist */,
 				6D563543258FFAD5009675D4 /* Uberabout.entitlements */,
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D56353C258FFAD4009675D4 /* ContentView.swift in Sources */,
+				6D56354B258FFB2E009675D4 /* Uberabout.swift in Sources */,
 				6D56353A258FFAD3009675D4 /* UberaboutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +271,7 @@
 				CODE_SIGN_ENTITLEMENTS = Uberabout/Uberabout.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 100;
 				DEVELOPMENT_ASSET_PATHS = "\"Uberabout/Preview Content\"";
 				DEVELOPMENT_TEAM = 276HSJ6V54;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -281,6 +282,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.ixeau.Uberabout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -295,6 +297,7 @@
 				CODE_SIGN_ENTITLEMENTS = Uberabout/Uberabout.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 100;
 				DEVELOPMENT_ASSET_PATHS = "\"Uberabout/Preview Content\"";
 				DEVELOPMENT_TEAM = 276HSJ6V54;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -305,6 +308,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.ixeau.Uberabout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
