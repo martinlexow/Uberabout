@@ -1,6 +1,6 @@
 # Uberabout
 
-Let’s be honest: The default “About” window in macOS apps looks like a relict of past times. It’s a forgotten niche of the Mac culture — so I made `Uberabout`! It replaces the default “About” window by a modern looking and fun one. Even though most of your users will never look at this window, remember: God is in the detalis!
+Let’s be honest: The default “About” window in macOS apps looks like a relict of past times. It’s a forgotten niche of the Mac culture — so I made `Uberabout`! It replaces the default “About” window with a modern looking and fun one. Even though most of your users will never look at this window, remember: God is in the detalis!
 
 ![](preview.gif)
 
