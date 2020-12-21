@@ -296,7 +296,7 @@ fileprivate struct UberaboutWindowButtonStyle: ButtonStyle {
 extension Bundle {
     
     var appName: String {
-        if let name = Bundle.main.infoDictionary?["CFBundleName"] as? String {
+        if let name = self.infoDictionary?["CFBundleName"] as? String {
             return name
         } else {
             logger.debug("Unable to determine 'appName'")
